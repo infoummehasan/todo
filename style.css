@@ -1,0 +1,68 @@
+body { font-family: sans-serif; display: flex; justify-content: center; padding: 20px; }
+.todo-container { width: 600px; background: yellowgreen; padding: 20px; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1) ; 
+    border: 8px solid #5FFBF1;
+ }
+.input-group { display: flex; gap: 5px; margin-bottom: 20px; }
+input { flex: 1; padding: 8px; border: 4px solid orange;
+ border-radius: 8px; }
+button { cursor: pointer; background: #28a745; color: white; border: none; padding: 8px;
+border-radius: 10px; }
+p{
+    color:#051937;
+}
+h6{
+     font-family: 'Arial Black', sans-serif;
+  font-size: 25px;
+  color: #fff;
+    /* Dark background helps the white text pop */
+  text-align: center;
+ 
+  
+  /* The Secret Sauce: Layering shadows */
+  text-shadow: 
+    0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+h2{
+    font-family: 'Arial Black', sans-serif;
+  font-size: 40px;
+ 
+  color: #fff;
+    /* Dark background helps the white text pop */
+  text-align: center;
+ 
+  
+  /* The Secret Sauce: Layering shadows */
+  text-shadow: 
+    0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+ul { list-style: none; padding: 0; }
+li { 
+  background: pink; margin-bottom: 5px; padding: 10px; 
+  display: flex; justify-content: space-between; border: 1px solid #eee; 
+}
+.completed { text-decoration: line-through; color: gray; }
+.delete-btn { color: red; cursor: pointer; font-weight: bold; }
